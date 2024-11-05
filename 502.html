@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>502 Bad Gateway</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Arial", sans-serif;
+
+        word-break: keep-all;
+        white-space: normal;
+      }
+      body {
+        background-color: #f2f2f2;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .container {
+        text-align: center;
+        max-width: 600px;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 4rem;
+        color: #e74c3c;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+      .button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #3498db;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+      .button:hover {
+        background-color: #2980b9;
+      }
+
+      #moreinfo {
+        background-color: white;
+        /* text-align: left; */
+        padding: 8px;
+        margin: 8px 0;
+      }
+      #moreinfo p {
+        margin: 0;
+        font-size: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>502</h1>
+      <p>
+        죄송합니다. 서버에 문제가 발생했습니다.<br />잠시 후 다시 시도해 주세요.
+      </p>
+
+      <div id="moreinfo">
+        <p>
+          저희 서비스는 정기적으로 업데이트를 진행하며,<br />업데이트 과정에서
+          서버를 재시작해야 하기 때문에 일시적으로 연결이 중단될 수 있습니다.
+        </p>
+      </div>
+      <a href="https://board.handong.app/feed" class="button">
+        한동피드 게시판 이동
+      </a>
+    </div>
+  </body>
+</html>
